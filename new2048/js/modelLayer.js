@@ -134,7 +134,7 @@ function drawBox(cxt, i, j, nums){
             cxt.fillStyle = color_256;
             cxt.fill();
             cxt.beginPath();
-            cxt.font = (0.95 * numSize) + "px Arial";
+            cxt.font = (0.9 * numSize) + "px Arial";
             cxt.fillStyle = color_text2;
             cxt.fillText(Math.random() < 0.85 ? "?":nums, x + box_width / 2, y + box_width / 2);
             break;
@@ -142,7 +142,7 @@ function drawBox(cxt, i, j, nums){
             cxt.fillStyle = color_512;
             cxt.fill();
             cxt.beginPath();
-            cxt.font = (0.95 * numSize) + "px Arial";
+            cxt.font = (0.8 * numSize) + "px Arial";
             cxt.fillStyle = color_text2;
             cxt.fillText(Math.random() < 0.9 ? "?":nums, x + box_width / 2, y + box_width / 2);
             break;
@@ -150,7 +150,7 @@ function drawBox(cxt, i, j, nums){
             cxt.fillStyle = color_1024;
             cxt.fill();
             cxt.beginPath();
-            cxt.font = (0.9 * numSize) + "px Arial";
+            cxt.font = (0.7 * numSize) + "px Arial";
             cxt.fillStyle = color_text2;
             cxt.fillText(Math.random() < 0.9 ? "?":nums, x + box_width / 2, y + box_width / 2);
             break;
@@ -158,7 +158,7 @@ function drawBox(cxt, i, j, nums){
             cxt.fillStyle = color_2048;
             cxt.fill();
             cxt.beginPath();
-            cxt.font = (0.9 * numSize) + "px Arial";
+            cxt.font = (0.7 * numSize) + "px Arial";
             cxt.fillStyle = color_text2;
             cxt.fillText(nums, x + box_width / 2, y + box_width / 2);
             break;
@@ -166,7 +166,7 @@ function drawBox(cxt, i, j, nums){
             cxt.fillStyle = color_4096;
             cxt.fill();
             cxt.beginPath();
-            cxt.font = (0.9 * numSize) + "px Arial";
+            cxt.font = (0.7 * numSize) + "px Arial";
             cxt.fillStyle = color_text2;
             cxt.fillText(nums, x + box_width / 2, y + box_width / 2);
             break;
@@ -174,7 +174,7 @@ function drawBox(cxt, i, j, nums){
             cxt.fillStyle = color_8192;
             cxt.fill();
             cxt.beginPath();
-            cxt.font = (0.9 * numSize) + "px Arial";
+            cxt.font = (0.7 * numSize) + "px Arial";
             cxt.fillStyle = color_text2;
             cxt.fillText(nums, x + box_width / 2, y + box_width / 2);
             break;
